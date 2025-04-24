@@ -1,7 +1,34 @@
-This notebook classifies movie reviews as positive or negative using the text of the review. This is an example of binary—or two-class—classification, an important and widely applicable kind of machine learning problem.
+# 🧠 Text Classification with TensorFlow Hub
 
-The tutorial demonstrates the basic application of transfer learning with TensorFlow Hub and Keras.
+## 📖 Project Description
 
-It uses the IMDB dataset, which contains the text of 50,000 movie reviews from the Internet Movie Database. These are split into 25,000 reviews for training and 25,000 reviews for testing.
+This project demonstrates binary sentiment analysis on movie reviews using **transfer learning** with **TensorFlow Hub** and **Keras**. It classifies reviews as either **positive** or **negative**, leveraging a pre-trained text embedding model to streamline the training process and improve accuracy.
 
-The training and testing sets are balanced, meaning they contain an equal number of positive and negative reviews.
+---
+
+## 📊 Dataset
+
+- **IMDB Movie Reviews Dataset**  
+  Contains 50,000 reviews:
+  - 25,000 for training
+  - 25,000 for testing  
+  The dataset is **balanced**, with an equal number of positive and negative reviews.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python 3**
+- **TensorFlow 2.x**
+- **Keras**
+- **TensorFlow Hub**
+- **Jupyter Notebook**
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Ankirr/Text-Classification.git
+   cd Text-Classification
